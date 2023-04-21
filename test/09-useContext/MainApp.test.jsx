@@ -40,7 +40,7 @@ describe("Pruebas en Main App", () => {
 	test("Debe de mostrar el Home Page con rutas inexistentes", () => {
 		render(
 			<MemoryRouter initialEntries={["/fakeurl"]}>
-				<MainApp />;
+				<MainApp />
 			</MemoryRouter>
 		);
 
